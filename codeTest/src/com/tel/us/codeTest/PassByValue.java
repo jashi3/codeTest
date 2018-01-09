@@ -11,5 +11,9 @@ public class PassByValue {
 	 void change(PassByValue pv){  
 		 pv.data=data+100;    //changes will be in the local variable, variable in change scope only. default data will be 50 unless we mention this keyword.  
 		 }
+	 
+	 void testingChange(){
+		 
+	 }
 
 }
